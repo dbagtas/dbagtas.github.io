@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Dave D. Bagtas",
-    "label": "Software Engineer / Website Developer",
+    "label": "Software Engineer | Website Developer",
     "picture": "https://drive.google.com/uc?export=view&id=1sh-UVCoWhuhB--4Uiz5kNX82PGLDNx4h",
     "email": "dbagtas.cob@gmail.com",
     "phone": "0921-034-0035",
@@ -118,10 +118,10 @@
       "position": "Hobbyist Developer",
       "startDate": "2010",
       "endDate": "Present",
-      "summary": "Computer Software Developer of sorts, sometimes a human.",
+      "summary": "Computer software and website developer of sorts, sometimes a human.",
       "highlights": [
         "Does all sorts of computer programming stuff.",
-        "A Linux website/cloud services developer as of 2019."
+        "A Linux website / cloud services developer as of 2019."
       ]
     }
   ],
