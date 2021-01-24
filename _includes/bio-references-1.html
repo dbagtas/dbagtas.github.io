@@ -11,7 +11,7 @@
     {% for entry in site.data.bio.references %}
       {{ entry.name }}
       {% if entry.reference and entry.reference.size > 0 %}
-        <em>{{ entry.reference }}</em>
+        <b>{{ entry.reference }}</b>
       {% endif %}
       {% if entry.website %}
         <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
