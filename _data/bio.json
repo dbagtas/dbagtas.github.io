@@ -18,12 +18,12 @@
       {
         "network": "github",
         "username": "dbagtas",
-        "url": "http://github.com/dbagtas"
+        "url": "https://github.com/dbagtas"
       },
       {
         "network": "linkedin",
         "username": "dbagtas",
-        "url": "http://linkedin.com/in/dbagtas"
+        "url": "https://linkedin.com/in/dbagtas"
       }
     ]
   },
@@ -100,7 +100,7 @@
     {
       "company": "MobileGroup Inc.",
       "position": "Software Engineer",
-      "website": "http://www.mobilegroupinc.com",
+      "website": "https://www.mobilegroupinc.com",
       "startDate": "2016",
       "endDate": "2018",
       "summary": "Junior Software Engineer",
@@ -114,7 +114,7 @@
   "volunteer": [
     {
       "organization": "coding enthusiast of numerous computer languages",
-      "website": "http://dbagtas.github.io",
+      "website": "https://dbagtas.github.io",
       "position": "Hobbyist Developer",
       "startDate": "2010",
       "endDate": "Present",
@@ -128,7 +128,7 @@
   "references": [
     {
       "name": "Curriculum Vitae",
-      "reference": "http://bit.ly/dbagtas-cv"
+      "reference": "https://bit.ly/dbagtas-cv"
     }
   ]
 }
