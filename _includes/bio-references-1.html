@@ -9,9 +9,9 @@
   <div class="fourteen wide column no-bottom">
     <p class="ui no-bottom">
     {% for entry in site.data.bio.references %}
-      {{ entry.name }}
+      <b>{{ entry.name }}</b>
       {% if entry.reference and entry.reference.size > 0 %}
-        <b>{{ entry.reference }}</b>
+        <em>{{ entry.reference }}</em>
       {% endif %}
       {% if entry.website %}
         <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
