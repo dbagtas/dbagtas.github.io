@@ -1,58 +1,75 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Dave D. Bagtas",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://drive.google.com/uc?export=view&id=1h5QBwtnD1bQDiy753W33IqjKwGP0wPlT",
+    "email": "dbagtas.cob@gmail.com",
+    "phone": "0921-034-0035",
+    "website": "https://dbagtas.github.io",
+    "summary": "Computer Scientist college graduate of 2009, mainly a software engineer and a website developer (make it happen kind of guy, do improvise or research if need be), does code reviews on interesting projects at GitHub on spare time; also delves into operating system internals and a bit of malware analysis, currently a Linux platform developer (FOSS ROCKS!!!), looking for Entry / Mid level ASP.NET C# or Angular Front-end coding jobs.",
+
+
     "location": {
       "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "postalCode": "2100",
+      "city": "Balanga",
+      "countryCode": "PH",
+      "region": "Bataan"
     },
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "dbagtas",
+        "url": "http://github.com/dbagtas"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "dbagtas",
+        "url": "http://linkedin.com/in/dbagtas"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
+        "username": "dbagtas",
+        "url": "http://twitter.com/dbagtas"
       },
       {
         "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "dbagtas",
+        "url": "http://instagram.com/dbagtas"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "Software Engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "C#",
+        "Delpi",
+        "C++"
       ]
     },
     {
-      "name": "data mining",
+      "name": "Website Programming",
       "keywords": [
+        "ASP.Net 5"
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Developer Operations",
       "keywords": [
+        "PowerShell",
+        "Git",
+        "BASH",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Reverse Code Engineering",
+      "keywords": [
+        "Malware Analysis",
+        "Network Packet Forensics",
+        "BASH",
+        "Phyton"
       ]
     }
   ],
@@ -61,33 +78,32 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
+        "C#",
+        "Delpi",
         "C++",
-        "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "ASP.Net 5"
+        "PowerShell",
+        "Git",
+        "BASH",
+        "Docker"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "EASTWOODS Professional College, Balanga City, Bataan",
+      "area": "Computer Science (2009)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
-      "endDate": "Present",
+      "startDate": "2015",
+      "endDate": "2009",
       "gpa": "",
       "courses": [
       ]
@@ -95,29 +111,18 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
+      "company": "Mobilegroup Inc.",
+      "position": "Software Engineer",
       "website": "",
       "startDate": "2015-08-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Junior Software Engineer",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Develop and maintain SQL scripts for cinema reporting sub-systems.",
+        "Also write code cinema software based on Delphi 7."
       ]
     }
+
   ],
   "volunteer": [
     {
@@ -152,13 +157,8 @@
       "date": "2013-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
+
   ],
   "references": [
     {
