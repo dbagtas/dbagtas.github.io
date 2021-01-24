@@ -10,7 +10,7 @@
     "location": {
       "address": "",
       "postalCode": "2100",
-      "city": "Balanga",
+      "city": "Balanga City",
       "countryCode": "PH",
       "region": "Bataan"
     },
@@ -24,16 +24,6 @@
         "network": "linkedin",
         "username": "dbagtas",
         "url": "http://linkedin.com/in/dbagtas"
-      },
-      {
-        "network": "twitter",
-        "username": "dbagtas",
-        "url": "http://twitter.com/dbagtas"
-      },
-      {
-        "network": "instagram",
-        "username": "dbagtas",
-        "url": "http://instagram.com/dbagtas"
       }
     ]
   },
@@ -41,33 +31,29 @@
     {
       "name": "Software Engineering",
       "keywords": [
-        "C#",
-        "Delpi",
-        "C++"
+        "Dephi 7",
+        "SQL Server",
       ]
     },
     {
       "name": "Website Programming",
       "keywords": [
-        "ASP.Net 5"
+        "ASP.Net 5",
+        "angular"
       ]
     },
     {
       "name": "Developer Operations",
       "keywords": [
-        "PowerShell",
-        "Git",
-        "BASH",
+        "Azure Cloud Services",
+        "Amazon Cloud Services",
         "Docker"
       ]
     },
     {
       "name": "Reverse Code Engineering",
       "keywords": [
-        "Malware Analysis",
-        "Network Packet Forensics",
-        "BASH",
-        "Phyton"
+        "Malware Analysis"
       ]
     }
   ],
@@ -77,12 +63,13 @@
       "level": "",
       "keywords": [
         "C#",
-        "Delpi",
+        "Delpi 7",
         "C++",
         "ASP.Net 5",
         "PowerShell",
         "Git",
         "BASH",
+        "Python",
         "Docker"
       ]
     },
@@ -100,7 +87,7 @@
       "institution": "EASTWOODS Professional College, Balanga City, Bataan",
       "area": "Computer Science (2009)",
       "studyType": "B.S.",
-      "startDate": "2015",
+      "startDate": "2005",
       "endDate": "2009",
       "gpa": "",
       "courses": [
@@ -109,11 +96,11 @@
   ],
   "work": [
     {
-      "company": "Mobilegroup Inc.",
+      "company": "MobileGroup Inc.",
       "position": "Software Engineer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
+      "website": "http://www.mobilegroupinc.com/",
+      "startDate": "February 2016",
+      "endDate": "August 2018",
       "summary": "Junior Software Engineer",
       "highlights": [
         "Develop and maintain SQL scripts for cinema reporting sub-systems.",
