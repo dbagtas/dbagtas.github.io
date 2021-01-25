@@ -68,7 +68,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "url": "",
       "keywords": [
         "C#",
         "Delpi 7",
@@ -82,7 +82,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "level": "",
+      "url": "",
       "keywords": [
         "Windows",
         "SQL Server",
