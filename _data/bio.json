@@ -30,7 +30,7 @@
   "interests": [
     {
       "organization": "",
-      "position": "Software Engineering",
+      "name": "Software Engineering",
       "summary": "",
       "highlights": [
         "Dephi 7",
@@ -39,7 +39,7 @@
     },
     {
       "organization": "",
-      "position": "Website Development",
+      "name": "Website Development",
       "summary": "",
       "highlights": [
         "ASP.Net 5",
@@ -48,7 +48,7 @@
     },
     {
       "organization": "",
-      "position": "Developer Operations",
+      "name": "Developer Operations",
       "summary": "",
       "highlights": [
         "Azure Cloud Services",
@@ -58,7 +58,7 @@
     },
     {
       "organization": "",
-      "position": "Reverse Code Engineering",
+      "name": "Reverse Code Engineering",
       "summary": "",
       "highlights": [
         "Malware Analysis"

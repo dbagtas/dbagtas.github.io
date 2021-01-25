@@ -10,7 +10,7 @@
   <div class="twelve wide column no-bottom">
     <p class="ui no-bottom">
       <b>
-      {{ entry.position }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
+      {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
       </b>
     </p>
     <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
