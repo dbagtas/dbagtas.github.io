@@ -4,10 +4,12 @@
     <h2 class="ui center aligned header no-bottom">{{ site.data.bio.basics.name }}</h2>
 	{% for entry in site.data.bio.references %}
 	<p style="text-align: center">
-      <b>{{ entry.name }}</b>
+      <b>
+	  {{ entry.name }}
       {% if entry.website %}
         <a href="{{ entry.website }}" target="_blank">({{ entry.website | remove: "http://" | remove: "https://" }})</a>
-      {% endif %}	
+      {% endif %}
+	  </b>
 	</p>	
 	{% endfor %}
   </div>
@@ -30,10 +32,12 @@
     <hr>
 	{% for entry in site.data.bio.references %}
 	<p style="text-align: center">
-      <b>{{ entry.name }}</b>
+      <b>
+	  {{ entry.name }}
       {% if entry.website %}
         <a href="{{ entry.website }}" target="_blank">({{ entry.website | remove: "http://" | remove: "https://" }})</a>
-      {% endif %}	
+      {% endif %}
+	  </b>
 	</p>	
 	{% endfor %}
   </div> 
