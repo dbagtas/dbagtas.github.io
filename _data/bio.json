@@ -34,7 +34,7 @@
       "summary": "",
       "highlights": [
         "Dephi 7",
-        "SQL Server"
+        "SQL / Transact-SQL"
       ]
     },
     {
@@ -43,7 +43,7 @@
       "summary": "",
       "highlights": [
         "ASP.Net 5",
-        "angular"
+        "Angular"
       ]
     },
     {
@@ -85,7 +85,6 @@
       "url": "",
       "keywords": [
         "Windows",
-        "SQL Server",
         "Ubuntu",
         "Git/GitHub",
         "Docker"
