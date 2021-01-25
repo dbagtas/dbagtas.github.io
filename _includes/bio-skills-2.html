@@ -7,7 +7,7 @@
 
 {% if site.data.bio.interests %}
 {% for entry in site.data.bio.interests %}
-  <div class="eight wide right aligned column">
+  <div class="eight wide left aligned column">
     <p class="ui no-bottom">
       <b>
       {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
@@ -29,7 +29,7 @@
 
 {% if site.data.bio.skills %}
 {% for entry in site.data.bio.skills %}
-  <div class="eight wide left aligned column">
+  <div class="eight wide right aligned column">
     <p class="ui no-bottom">
       <b>{{ entry.name }}</b>
     </p>
