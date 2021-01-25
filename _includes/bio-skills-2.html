@@ -6,32 +6,57 @@
 </div>
 
 {% if site.data.bio.interests %}
-<div class="eight wide left aligned column">
+  <div class="four wide left aligned column">
   {% for entry in site.data.bio.interests %}
-  <p class="ui no-bottom">
-    <b>
-    {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
-    </b>
-  </p>
-  <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+    {% capture number %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if number == 'odd' %}
+      <p class="ui no-bottom">
+        <b>
+        {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
+        </b>
+      </p>
+      <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
 
-  <p class="ui no-bottom">{{ entry.summary }}</p>
-  {% if entry.highlights %}
-    <ul style="margin: 0.5rem;">
-      {% for highlight in entry.highlights %}
-        <li>{{ highlight }}</li>
-      {% endfor %}
-    </ul>
+      <p class="ui no-bottom">{{ entry.summary }}</p>
+      {% if entry.highlights %}
+        <ul style="margin: 0.5rem;">
+          {% for highlight in entry.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
     {% endif %}
   {% endfor %}
-</div>
+  </div>
+  <div class="four wide left aligned column">
+  {% for entry in site.data.bio.interests %}
+    {% capture number %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if number == 'even' %}
+      <p class="ui no-bottom">
+        <b>
+        {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
+        </b>
+      </p>
+      <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+
+      <p class="ui no-bottom">{{ entry.summary }}</p>
+      {% if entry.highlights %}
+        <ul style="margin: 0.5rem;">
+          {% for highlight in entry.highlights %}
+            <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
 {% endif %}
 
 {% if site.data.bio.skills %}
   <div class="four wide left aligned column">
   {% for entry in site.data.bio.skills %}
-    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'odd' %}
+    {% capture number %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if number == 'odd' %}
       <p class="ui no-bottom">
         <b>{{ entry.name }}</b>
       </p>
@@ -50,8 +75,8 @@
   </div>
   <div class="four wide left aligned column">
   {% for entry in site.data.bio.skills %}
-    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-    {% if thecycle == 'even' %}
+    {% capture number %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if number == 'even' %}
       <p class="ui no-bottom">
         <b>{{ entry.name }}</b>
       </p>
