@@ -13,7 +13,7 @@
       {{ entry.position }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
       </b>
     </p>
-    <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+    <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
   </div>
   <div class="four wide right aligned column no-bottom">
     <p class="ui no-bottom"><b>

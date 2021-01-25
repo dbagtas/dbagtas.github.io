@@ -14,7 +14,7 @@
         <em>{{ entry.reference }}</em>
       {% endif %}
       {% if entry.website %}
-        <p class="ui no-bottom"><a href="{{ entry.website }}">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+        <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
       {% endif %}
     {% endfor %}
     </p>
