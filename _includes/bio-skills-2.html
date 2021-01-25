@@ -6,43 +6,43 @@
 </div>
 
 {% if site.data.bio.interests %}
-{% for entry in site.data.bio.interests %}
-  <div class="eight wide left aligned column">
-    <p class="ui no-bottom">
-      <b>
-      {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
-      </b>
-    </p>
-    <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+<div class="eight wide left aligned column">
+  {% for entry in site.data.bio.interests %}
+  <p class="ui no-bottom">
+    <b>
+    {{ entry.name }}{% if entry.organization and (entry.organization != "") %}, {{ entry.organization }}{% endif %}
+    </b>
+  </p>
+  <p class="ui no-bottom"><a href="{{ entry.website }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
 
-    <p class="ui no-bottom">{{ entry.summary }}</p>
-    {% if entry.highlights %}
-      <ul style="margin: 0.5rem;">
-        {% for highlight in entry.highlights %}
-          <li>{{ highlight }}</li>
-        {% endfor %}
-      </ul>
+  <p class="ui no-bottom">{{ entry.summary }}</p>
+  {% if entry.highlights %}
+    <ul style="margin: 0.5rem;">
+      {% for highlight in entry.highlights %}
+        <li>{{ highlight }}</li>
+      {% endfor %}
+    </ul>
     {% endif %}
-  </div>
-{% endfor %}
+  {% endfor %}
+</div>
 {% endif %}
 
 {% if site.data.bio.skills %}
-{% for entry in site.data.bio.skills %}
-  <div class="eight wide right aligned column">
-    <p class="ui no-bottom">
-      <b>{{ entry.name }}</b>
-    </p>
-    <p class="ui no-bottom"><a href="{{ entry.url }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+<div class="eight wide right aligned column">
+  {% for entry in site.data.bio.skills %}
+  <p class="ui no-bottom">
+    <b>{{ entry.name }}</b>
+  </p>
+  <p class="ui no-bottom"><a href="{{ entry.url }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
 
-    <p class="ui no-bottom">{{ entry.summary }}</p>
-    {% if entry.keywords %}
-      <ul style="margin: 0.5rem;">
-        {% for keyword in entry.keywords %}
-          <li>{{ keyword }}</li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
-{% endfor %}
+  <p class="ui no-bottom">{{ entry.summary }}</p>
+  {% if entry.keywords %}
+    <ul style="margin: 0.5rem;">
+      {% for keyword in entry.keywords %}
+        <li>{{ keyword }}</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  {% endfor %}
+</div>
 {% endif %}
