@@ -66,21 +66,21 @@
         "Delpi 7",
         "C++",
         "ASP.Net 5",
+        "Angular",
         "PowerShell",
-        "Git",
         "BASH",
-        "Python",
-        "Docker"
+        "Python"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "windows",
+        "Windows",
         "SQL Server",
         "Ubuntu",
-        "Git/GitHub"
+        "Git/GitHub",
+        "Docker"
       ]
     }
   ],
