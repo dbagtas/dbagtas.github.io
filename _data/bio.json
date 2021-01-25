@@ -29,30 +29,38 @@
   },
   "interests": [
     {
-      "name": "Software Engineering",
-      "keywords": [
+      "organization": "",
+      "position": "Software Engineering",
+      "summary": "",
+      "highlights": [
         "Dephi 7",
         "SQL Server"
       ]
     },
     {
-      "name": "Website Development",
-      "keywords": [
+      "organization": "",
+      "position": "Website Development",
+      "summary": "",
+      "highlights": [
         "ASP.Net 5",
         "angular"
       ]
     },
     {
-      "name": "Developer Operations",
-      "keywords": [
+      "organization": "",
+      "position": "Developer Operations",
+      "summary": "",
+      "highlights": [
         "Azure Cloud Services",
         "Amazon Cloud Services",
         "Docker"
       ]
     },
     {
-      "name": "Reverse Code Engineering",
-      "keywords": [
+      "organization": "",
+      "position": "Reverse Code Engineering",
+      "summary": "",
+      "highlights": [
         "Malware Analysis"
       ]
     }
