@@ -28,21 +28,44 @@
 {% endif %}
 
 {% if site.data.bio.skills %}
-<div class="eight wide left aligned column">
+  <div class="four wide left aligned column">
   {% for entry in site.data.bio.skills %}
-  <p class="ui no-bottom">
-    <b>{{ entry.name }}</b>
-  </p>
-  <p class="ui no-bottom"><a href="{{ entry.url }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'odd' %}
+      <p class="ui no-bottom">
+        <b>{{ entry.name }}</b>
+      </p>
+      <p class="ui no-bottom"><a href="{{ entry.url }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
 
-  <p class="ui no-bottom">{{ entry.summary }}</p>
-  {% if entry.keywords %}
-    <ul style="margin: 0.5rem;">
-      {% for keyword in entry.keywords %}
-        <li>{{ keyword }}</li>
-      {% endfor %}
-    </ul>
-  {% endif %}
+      <p class="ui no-bottom">{{ entry.summary }}</p>
+      {% if entry.keywords %}
+        <ul style="margin: 0.5rem;">
+          {% for keyword in entry.keywords %}
+            <li>{{ keyword }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
   {% endfor %}
-</div>
+  </div>
+  <div class="four wide left aligned column">
+  {% for entry in site.data.bio.skills %}
+    {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+    {% if thecycle == 'even' %}
+      <p class="ui no-bottom">
+        <b>{{ entry.name }}</b>
+      </p>
+      <p class="ui no-bottom"><a href="{{ entry.url }}" target="_blank">{{ entry.website | remove: "http://" | remove: "https://" }}</a></p>
+
+      <p class="ui no-bottom">{{ entry.summary }}</p>
+      {% if entry.keywords %}
+        <ul style="margin: 0.5rem;">
+          {% for keyword in entry.keywords %}
+            <li>{{ keyword }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </div>
 {% endif %}
