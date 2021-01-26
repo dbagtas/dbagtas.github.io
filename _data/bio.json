@@ -81,7 +81,7 @@
       ]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Toolsets / OS",
       "url": "",
       "keywords": [
         "Microsoft Windows",
@@ -113,7 +113,7 @@
       "summary": "Junior Software Engineer",
       "highlights": [
         "Develop and maintain SQL scripts for cinema reporting module.",
-        "Write code for cinema software based on Delphi mostly for printing module."
+        "Write code for cinema software based on Delphi, mostly for printing module."
       ]
     }
 
