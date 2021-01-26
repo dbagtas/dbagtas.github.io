@@ -65,7 +65,7 @@
       <p class="ui no-bottom">{{ entry.summary }}</p>
       {% if entry.keywords %}
         {% if entry.keywords.size > 5 %}
-        <ul style="margin: 0.5rem; columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+        <ul style="margin: 0.5rem; columns: 2; -webkit-columns: 2; -moz-columns: 2; padding-inline-start: 1.70rem;">
           {% for keyword in entry.keywords %}
             <li>{{ keyword }}</li>
           {% endfor %}
