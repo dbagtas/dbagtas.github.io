@@ -33,8 +33,7 @@
       "name": "Software Engineering",
       "summary": "",
       "highlights": [
-        "Dephi 7",
-        "SQL / Transact-SQL"
+        "Dephi 7"
       ]
     },
     {
@@ -74,6 +73,7 @@
         "Delpi 7",
         "C++",
         "ASP.Net 5",
+        "SQL / Transact-SQL",
         "Angular",
         "PowerShell",
         "BASH",
