@@ -19,7 +19,7 @@
 
       <p class="ui no-bottom">{{ entry.summary }}</p>
       {% if entry.highlights %}
-        <ul style="margin: 0.5rem;">
+        <ul style="margin: 0.5rem; padding-inline-start: 10%;">
           {% for highlight in entry.highlights %}
             <li>{{ highlight }}</li>
           {% endfor %}
@@ -41,7 +41,7 @@
 
       <p class="ui no-bottom">{{ entry.summary }}</p>
       {% if entry.highlights %}
-        <ul style="margin: 0.5rem;">
+        <ul style="margin: 0.5rem; padding-inline-start: 10%;">
           {% for highlight in entry.highlights %}
             <li>{{ highlight }}</li>
           {% endfor %}
@@ -71,7 +71,7 @@
           {% endfor %}
         </ul>
         {% else %}
-        <ul style="margin: 0.5rem;">
+        <ul style="margin: 0.5rem; padding-inline-start: 10%;">
           {% for keyword in entry.keywords %}
             <li>{{ keyword }}</li>
           {% endfor %}
