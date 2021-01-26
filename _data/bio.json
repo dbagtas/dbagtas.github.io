@@ -84,8 +84,8 @@
       "name": "Toolsets/OS",
       "url": "",
       "keywords": [
-        "Windows",
-        "Ubuntu",
+        "Microsoft Windows",
+        "Linux Ubuntu",
         "Git/GitHub",
         "Docker"
       ]

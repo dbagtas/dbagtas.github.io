@@ -28,17 +28,18 @@
   {% include bio-publications-2.html %}
   {% include bio-awards-2.html %}
   {% include bio-skills-2.html %}
+
   <div class="sixteen wide column bottom">
     <hr>
-	{% for entry in site.data.bio.references %}
-	<p style="text-align: center">
-      <b>
-	  {{ entry.name }}
-      {% if entry.website %}
-        <a href="{{ entry.website }}" target="_blank">({{ entry.website | remove: "http://" | remove: "https://" }})</a>
-      {% endif %}
-	  </b>
-	</p>	
-	{% endfor %}
+    {% for entry in site.data.bio.references %}
+    <p style="text-align: center; padding: 1.0rem;">
+        <b>
+        {{ entry.name }}
+        {% if entry.website %}
+          <a href="{{ entry.website }}" target="_blank">({{ entry.website | remove: "http://" | remove: "https://" }})</a>
+        {% endif %}
+      </b>
+    </p>	
+    {% endfor %}
   </div> 
 </div>
