@@ -49,6 +49,7 @@
       "name": "Developer Operations",
       "summary": "",
       "highlights": [
+        "Git / GitHub",
         "Azure Cloud Services",
         "Amazon Cloud Services",
         "Docker"
@@ -85,7 +86,6 @@
       "keywords": [
         "Microsoft Windows",
         "Linux Ubuntu",
-        "Git/GitHub",
         "Docker"
       ]
     }
