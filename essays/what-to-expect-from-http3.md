@@ -45,3 +45,5 @@ TLS 1.3 encryption is mandatory. Yes, the second at­tempt. Let's see if it won'
 ## Deflecting Reflection
 
 Reflection attacks are based on spoofing victim’s IP address after being compromised. QUIC protocol defines an explicit source-address verification mechanism.
+
+<br />
