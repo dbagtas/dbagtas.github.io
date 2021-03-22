@@ -8,7 +8,7 @@ labels:
   - Space Exploration
 ---
 
-<img class="ui spaced image" src="../images/re-energized-nebula.jpg">Located around 5,000 light-years away in the constellation of Cygnus (the Swan), Abell 78 is an unusual type of planetary nebula.
+<img class="ui image" src="../images/re-energized-nebula.jpg">Located around 5,000 light-years away in the constellation of Cygnus (the Swan), Abell 78 is an unusual type of planetary nebula.
 
 ## Re-energized Planetary Nebula
 
