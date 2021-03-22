@@ -22,7 +22,9 @@ The F-35A MM7360/32-10 carried four GBU-12s LGBs (Laser Guided Bombs) on the ext
 
 Although we don’t know which was the airspeed of the aircraft when the shots were taken, it’s safe to assume the two 5th gen. jets weren’t too fast: the F-35B had the Upper Lift Fan Door (aka the ‘”scoop” or “toilet seat”) open that acts as a giant speed brake and limits the max airspeed of the F-35. For this reason, the A model must have flown quite slow to allow the B model to catch up and keep the formation: rather impressive considered the payload configuration.
 
-<img class="ui image rounded" src="../images/beast-modeF35-3.jpg">A pretty unusual formation: F-35B in STOVL mode with gear down and four GBUs flying alongside an F-35A with four GBU-12s and two AIM-120s in the open weapon bays.
+<a href="https://dbagtas.github.io/images/beast-modeF35-3.jpg" class="ui image rounded">
+  <img src="../images/beast-modeF35-3.jpg">A pretty unusual formation: F-35B in STOVL mode with gear down and four GBUs flying alongside an F-35A with four GBU-12s and two AIM-120s in the open weapon bays.
+</a>
 
 As already explained in details, “Beast Mode” is not an official or technical term, but it has become a pretty common way an F-35 configuration involving both internal and external loads has been dubbed. […] As opposed to a “First Day of War” loadout, in which the F-35 would carry weapons internally to maintain low radar cross-section and observability, the “Third Day of War” configuration is expected to be used from the third day of an air campaign when, theoretically, enemy air defense assets (including sensors, air defense missile and gun systems and enemy aircraft) have been degraded by airstrikes (conducted also by F-35s in “Stealth Mode”) and the battlespace has become more permissive: in such a scenario the F-35 no longer relies on Low-Observability for survivability so it can shift to carrying large external loads. These conditions are not always met. For instance, LO was not needed when the F-35A was called to carry out the first air strike in the Middle East, nor when the U.S. Marine Corps F-35B carried out the first air strike in Afghanistan.
 
