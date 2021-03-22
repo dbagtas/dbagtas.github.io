@@ -8,11 +8,9 @@ labels:
   - Space Exploration
 ---
 
-<img class="ui tiny right spaced image" src="../images/degree_difficulty.jpg">TypeScript doesn't have the rich set of native collection classes that you're used to in the .NET Framework -- instead, it has just arrays and tuples. Fortunately, you can do quite a lot with them.
+<img class="ui spaced image" src="../images/re-energized-nebula.jpg">Located around 5,000 light-years away in the constellation of Cygnus (the Swan), Abell 78 is an unusual type of planetary nebula.
 
 ## Re-energized Planetary Nebula
-
-Located around 5,000 light-years away in the constellation of Cygnus (the Swan), Abell 78 is an unusual type of planetary nebula.
 
 After exhausting the nuclear fuel in their cores, stars with a mass of around 0.8 to eight times the mass of our Sun collapse to form dense and hot white dwarf stars. As this process occurs, the dying star will throw off its outer layers of material, forming an elaborate cloud of gas and dust known as a planetary nebula. This phenomenon is not uncommon, and planetary nebulae are a popular focus for astrophotographers because of their often beautiful and complex shapes. However, a few like Abell 78 are the result of a so-called “born again” star.
 
