@@ -9,6 +9,17 @@
   display: none;
 }
 
+.codesnippet {
+  margin: 15px 0 15px 0;
+  overflow: auto;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: pre;
+  max-height: 400px;
+  background: white;
+  padding: 10px;
+}
+
 // Make text smaller, remove spacing between list items when printing.
 @media print {
 
