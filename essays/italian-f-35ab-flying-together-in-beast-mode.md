@@ -8,8 +8,7 @@ labels:
   - Military
 ---
 
-
-<img class="ui image rounded" src="../images/beast-modeF35-1.jpg">The F-35B during a short landing in Beast Mode (All images: Italian Air Force)
+<br /><img class="ui image rounded" src="../images/beast-modeF35-1.jpg">The F-35B during a short landing in Beast Mode (All images: Italian Air Force)
 
 ## Italian Air Force, F-35A and F-35B in “Beast Mode”
 
@@ -34,3 +33,5 @@ As already explained in details, “Beast Mode” is not an official or technica
 The mission on Nov. 26, marked various Italian “firsts”: first sorties in “Beast Mode” for both the F-35A and B model; first formation flying in this configuration for the two types; first short take off and landings for the F-35B in “Beast Mode”. The mission was supported by the Reparto Sperimentale Volo, the Italian Air Force Test Wing, based at Pratica di Mare, as part of the F-35 OT&E (Operational Test and Evaluation), and also by the various ground support teams, who were involved in the preparation and execution of the flights with the peculiar payload config.
 
 “The continuous training of pilots, maintainers and support personnel, also in this configuration, is crucial for the constant growth of the Armed Force in the use of F-35A and F-35B exploiting all their capabilities,” said Col. Stefano Castelnuovo, Commander of the 32nd Wing.
+
+<br />
