@@ -8,7 +8,7 @@ labels:
   - Website Development
 ---
 
-<img class="ui spaced image" src="../images/degree_difficulty.jpg">
+<br /><img class="ui spaced image" src="../images/http3.jpg">
 
 We barely deployed HTTP/2 and we are already talking about HTTP/3. The web is moving very fast these days and its users will benefit from that. In fact, Chrome is already using HTTP/3 if you are connecting to Google’s servers. The protocol has been in development and tested in production environment for years under the name of QUIC. It suppresses TCP and is built up entirely on UDP. And the best in the end – encryption is mandatory (at least for the time being).
 
