@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: NGC 1097
+title: The Core of NGC 1097
 # All dates must be YYYY-MM-DD format!
 date: 2021-03-28
 labels:
@@ -14,7 +14,7 @@ The NASA/ESA Hubble Space Telescope provides us with a spectacular image of the 
 
 <br /><a href="https://dbagtas.github.io/images/NGC-1097_The-Core.jpg" class="ui image rounded"><img src="../images/NGC-1097_The-Core.jpg"></a>
 
-## The Core
+## Ring of Fire
 
 The NASA/ESA Hubble Space Telescope provides us with a spectacular image of the bright star-forming ring that surrounds the heart of the barred spiral galaxy NGC 1097. In this image, the larger-scale structure of the galaxy is barely visible: its comparatively dim spiral arms, which surround its heart in a loose embrace, reach out beyond the edges of this frame.
 
