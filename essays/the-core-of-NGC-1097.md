@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: The Core of NGC 1097
+title: NGC 1097
 # All dates must be YYYY-MM-DD format!
 date: 2021-03-28
 labels:
