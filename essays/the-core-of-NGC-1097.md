@@ -8,7 +8,11 @@ labels:
   - Cosmos
 ---
 
-<br /><a href="https://dbagtas.github.io/images/NGC-1097.jpg" class="ui image rounded"><img src="../images/NGC-1097.jpg"></a>NGC 1097 is a Seyfert type galaxy. Deep photographs revealed four narrow optical jets that appear to emanate from the nucleus.
+<br /><a href="https://dbagtas.github.io/images/NGC-1097.jpg" class="ui image rounded"><img src="../images/NGC-1097.jpg"></a>
+
+NGC 1097 is a Seyfert type galaxy. Deep photographs revealed four narrow optical jets that appear to emanate from the nucleus.
+
+<br /><a href="https://dbagtas.github.io/images/NGC-1097.jpg" class="ui image rounded"><img src="../images/NGC-1097-2.jpg"></a>
 
 The NASA/ESA Hubble Space Telescope provides us with a spectacular image of the bright star-forming ring that surrounds the heart of the barred spiral galaxy NGC 1097. In this image, the larger-scale structure of the galaxy is barely visible: its comparatively dim spiral arms, which surround its heart in a loose embrace, reach out beyond the edges of this frame.
 
