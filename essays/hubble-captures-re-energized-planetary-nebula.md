@@ -5,7 +5,7 @@ title: Hubble Captures Re-energized Planetary Nebula
 # All dates must be YYYY-MM-DD format!
 date: 2021-03-19
 labels:
-  - Space Exploration
+  - Cosmos
 ---
 <br /><a href="https://dbagtas.github.io/images/re-energized-nebula.jpg" class="ui image rounded"><img src="../images/re-energized-nebula.jpg"></a>
 
