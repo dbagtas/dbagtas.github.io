@@ -14,7 +14,7 @@ NGC 1097 is a Seyfert type galaxy. Deep photographs revealed four narrow optical
 
 The NASA/ESA Hubble Space Telescope provides us with a spectacular image of the bright star-forming ring that surrounds the heart of the barred spiral galaxy NGC 1097. In this image, the larger-scale structure of the galaxy is barely visible: its comparatively dim spiral arms, which surround its heart in a loose embrace, reach out beyond the edges of this frame.
 
-<br /><a href="https://dbagtas.github.io/images/NGC-1097.jpg" class="ui image rounded fluid"><img src="../images/NGC-1097-2.jpg"></a>
+<a href="https://dbagtas.github.io/images/NGC-1097.jpg" class="ui image rounded fluid"><img src="../images/NGC-1097-2.jpg"></a>
 
 ## Ring of Fire
 
@@ -24,7 +24,7 @@ This face-on galaxy, lying 45 million light-years away from Earth in the souther
 
 The distinctive ring around the black hole is bursting with new star formation due to an inflow of material toward the central bar of the galaxy. These star-forming regions are glowing brightly thanks to emission from clouds of ionized hydrogen. The ring is around 5000 light-years across, although the spiral arms of the galaxy extend tens of thousands of light-years beyond it.
 
-<br /><a href="https://dbagtas.github.io/images/NGC-1097_The-Core.jpg" class="ui image rounded"><img src="../images/NGC-1097_The-Core.jpg"></a>
+<a href="https://dbagtas.github.io/images/NGC-1097_The-Core.jpg" class="ui image rounded"><img src="../images/NGC-1097_The-Core.jpg"></a>
 
 NGC 1097 has experienced three supernovae (the violent deaths of high-mass stars) in the 11-year span between 1992 and 2003. This is definitely a galaxy worth checking on a regular basis.
 
