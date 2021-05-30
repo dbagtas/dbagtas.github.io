@@ -29,14 +29,17 @@ In addition, HTTP/3 offers <a href="https://blog.cloudflare.com/even-faster-conn
 
 The following illustrates the packet loss and its impact: HTTP/2 multiplexing two requests . A request comes over HTTP/2 from the client to the server requesting two resources (we’ve colored the requests and their associated responses green and yellow). The responses are broken up into multiple packets and, alas, a packet is lost so both requests are held up.
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image1-1.gif" class="ui image">
-<img src="https://blog.cloudflare.com/content/images/2020/04/image4-1.gif" class="ui image">
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image1-1.gif">
+
+<br />
+
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image4-1.gif">
 
 The above shows HTTP/3 multiplexing 2 requests. A packet is lost that affects the yellow response but the green one proceeds just fine.
 
 Improvements in session startup mean that ‘connections’ to servers start much faster, which means the browser starts to see data more quickly. We were curious to see how much of an improvement, so we ran some tests. To measure the improvement resulting from 0-RTT support, we ran some benchmarks measuring <em>time to first byte</em> (TTFB). On average, with HTTP/3 we see the first byte appearing after 176ms. With HTTP/2 we see 201ms, meaning HTTP/3 is already performing 12.4% better!
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image5-6.png" class="ui image">
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image5-6.png">
 
 Interestingly, not every aspect of the protocol is governed by the drafts or RFC. Implementation choices can affect performance, such as efficient <a href="https://blog.cloudflare.com/accelerating-udp-packet-transmission-for-quic/">packet transmission</a> and choice of congestion control algorithm. Congestion control is a technique your computer and server use to adapt to overloaded networks: by dropping packets, transmission is subsequently throttled. Because QUIC is a new protocol, getting the congestion control design and implementation right requires experimentation and tuning.
 
@@ -46,11 +49,15 @@ For our existing HTTP/2 stack, we currently support <a href="https://github.com/
 
 For a small test page of 15KB, HTTP/3 takes an average of 443ms to load compared to 458ms for HTTP/2. However, once we increase the page size to 1MB that advantage disappears: HTTP/3 is just slightly slower than HTTP/2 on our network today, taking 2.33s to load versus 2.30s. 
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image2-11.png" class="ui image">
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image2-11.png">
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image6-4.png" class="ui image">
+<br />
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image3-11.png" class="ui image">
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image6-4.png">
+
+<br />
+
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image3-11.png">
 
 Synthetic benchmarks are interesting, but we wanted to know how HTTP/3 would perform in the real world.
 
@@ -60,7 +67,7 @@ As a test case we decided to use <a href="https://blog.cloudflare.com/">this ver
 
 The following graph shows the page load time for a real world page -- <a href="https://blog.cloudflare.com/">blog.cloudflare.com</a>, to compare the performance of HTTP/3 and HTTP/2. We have these performance measurements running from different geographical locations.
 
-<img src="https://blog.cloudflare.com/content/images/2020/04/image7-5.png" class="ui image">
+<img class="ui image" src="https://blog.cloudflare.com/content/images/2020/04/image7-5.png">
 
 As you can see, HTTP/3 performance still trails HTTP/2 performance, by about 1-4% on average in North America and similar results are seen in Europe, Asia and South America. We suspect this could be due to the difference in congestion algorithms: HTTP/2 on BBR v1 vs. HTTP/3 on CUBIC. In the future, we’ll work to support the same congestion algorithm on both to get a more accurate apples-to-apples comparison.
 
@@ -70,42 +77,4 @@ Overall, we’re very excited to be allowed to help push this standard forward. 
 
 In the meantime, if you’d like to try it out, just enable HTTP/3 on our dashboard and download a nightly version of one of the major browsers. Instructions on how to enable HTTP/3 can be found on our <a href="https://developers.cloudflare.com/http3/intro/">developer documentation</a>.
 
-<!--
-
-## Isolated Streams
-
-HTTP/2 introduced multiplexing, which is useful, because it allows transfer­ring of multiple streams over a single connection. But when one of those streams lost a single packet, the whole connection prevents progress on all its streams. It’s a limitation of TCP which wasn't intended to use multiple streams. Therefore HTTP/3 introduced whole new stack on the top of UDP. A lost packet affects only the stream in that packet. Other streams can continue to progress.
-
-## Persistent Connection
-
-Running long running connections will be finally possible when your device is mobile.
-
-## NAT Rebinding
-
-In the IPv4 world, a single IP address can have multiple web­servers behind it. The problem is that when you establish a connection the second web­server behind the NAT, the first connection will time­out because the source port of your IP address has changed.
-
-QUIC will establish only one connection to NAT and endpoints will be responsible for identifying connections. This concept is called connection ID.
-
-## Connection Migration
-
-Currently, when the device switches from LTE network to Wi-Fi, the old connection is lost, and new connection must be established. HTTP/3 will offer a migration of the connections to different IP address.
-
-## Backward Compatibility
-
-The approach is like HSTS mechanism. First, the browser establishes the connection in HTTP 1.1 or HTTP/2 protocol. Second, the server responds with Alt-Svc header. Third, the browser will switch to QUIC and use it in the future.
-
-## Privacy
-
-Privacy is a compromise between usability and security. The bar of security rising.
-
-## Always Encrypted
-
-TLS 1.3 encryption is mandatory. Yes, the second at­tempt. Let's see if it won't be removed for “performance” reasons.
-
-## Deflecting Reflection
-
-Reflection attacks are based on spoofing victim’s IP address after being compromised. QUIC protocol defines an explicit source-address verification mechanism.
-
 <br />
-
--->
