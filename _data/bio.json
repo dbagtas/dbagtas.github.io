@@ -110,8 +110,8 @@
       "endDate": "2018",
       "summary": "Junior Software Engineer",
       "highlights": [
-        "Develop and maintain SQL scripts for cinema reporting module.",
-        "Write code for cinema software based on Delphi, mostly for printing module."
+        "Develop and maintain database SQL scripts for the cinema reporting module.",
+        "Write code for cinema software based on Delphi 7, mostly for the printing module (ZPL II / DPL)."
       ]
     }
 
@@ -126,7 +126,7 @@
       "summary": "Computer software and website developer of sorts, sometimes a human.",
       "highlights": [
         "Does all sorts of computer programming stuff.",
-        "A Linux website / cloud services developer as of 2019."
+        "A website application / cloud services developer under Linux platform as of 2019."
       ]
     }
   ],
